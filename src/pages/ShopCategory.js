@@ -7,6 +7,11 @@ import Item from '../components/Item/Item.js'
 const ShopCategory = (props) => {
 
   const {all_product} = useContext(ShopContext);
+
+  if (!all_product) {
+    return <div>Loading...</div>; // or any other loading indicator
+  }
+
   return (
     <div className='shopcategory'>
       <img className='shopcategory-banner' src={props.banner} alt="" />
