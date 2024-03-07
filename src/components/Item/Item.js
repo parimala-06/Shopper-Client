@@ -2,8 +2,11 @@ import React from 'react'
 import './Item.css'
 import { Link } from 'react-router-dom'
 
+
 const displayProductImage = (base64Image) => {
-  return `data:image/png;base64,${base64Image}`;
+  // Assuming base64Image is a base64 encoded string
+  return base64Image
+
 };
 
 const Item = (props) => {

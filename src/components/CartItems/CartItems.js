@@ -7,7 +7,7 @@ const CartItems = () => {
     const {all_product, cartItems, removeFromCart, getTotalCartAmount} = useContext(ShopContext);
 
     const displayProductImage = (base64Image) => {
-        return `data:image/jpeg;base64,${base64Image}`;
+        return base64Image;
       };
   return (
     <div className='cartitems'>
@@ -39,7 +39,7 @@ const CartItems = () => {
                 {all_product.map((e) => {
                     if (cartItems[e.id] > 0) {
                         return (
-                            <div key={e.id}>
+                            <div key={`${e.id}-${cartItems[e.id]}`}>
                                 <div className="cartitems-format cartitems-format-main">
                                     <img src={displayProductImage(e.image)} alt="" className='cartitems-product-icon' />
                                     <p>{e.name}</p>

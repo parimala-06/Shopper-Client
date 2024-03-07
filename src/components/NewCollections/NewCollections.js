@@ -9,14 +9,18 @@ const NewCollections = () => {
     const [new_collections, setNew_collections] = useState([]);
 
     const displayProductImage = (base64Image) => {
-        return `data:image/jpeg;base64,${base64Image}`;
+        return base64Image;
       };
 
-    useEffect(()=>{
+      useEffect(() => {
         fetch(`${baseURL}/newcollection`)
-        .then((response)=>response.json())
-        .then((data)=>setNew_collections(data))
-    },[])
+            .then((response) => response.json())
+            .then((data) => {
+                console.log("New collections data:", data);
+                setNew_collections(data);
+            })
+            .catch((error) => console.error("Error fetching new collections:", error));
+    }, []);
 
     return (  
     <div className='new-collections'>

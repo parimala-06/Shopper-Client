@@ -10,7 +10,7 @@ const ProductDisplay = (props) => {
     const {addToCart} =  useContext(ShopContext);
 
     const displayProductImage = (base64Image) => {
-        return `data:image/jpeg;base64,${base64Image}`;
+        return base64Image;
       };
 
   return (
