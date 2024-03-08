@@ -1,7 +1,7 @@
 .terms{
     height: 90vh;
-    margin: 30px;
-    padding: 30px;
+    margin: 50px;
+    padding: 50px;
 }
 .terms h1{
     font-size: 30px;
@@ -11,6 +11,13 @@
 .terms p{
     font-size: 16px;
     text-align: justify;
+}
+@media(max-width:1280px){
+    .terms{
+        height: 90vh;
+        margin: 30px;
+        padding: 30px;
+    }
 }
 
 @media(max-width:800px){

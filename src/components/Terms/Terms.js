@@ -61,6 +61,10 @@ const Terms = () => {
     <br />
     <br />
         </p>
+        <br />
+        <br />
+        <br />
+
         <hr />
     </div>
   )
