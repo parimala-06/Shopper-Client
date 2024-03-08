@@ -131,12 +131,12 @@ const LoginSignUp = () => {
       <div className="loginsignup-container">
         <h1>{state}</h1>
         <div className="loginsignup-fields">
-          {state === 'Sign Up' ? <input name='username' value={formData.username} onChange={changeHandler} type="text" placeholder='Name' /> : null}
+          {state === 'Sign Up' && <input name='username' value={formData.username} onChange={changeHandler} type="text" placeholder='Name' />}
           <input name='email' value={formData.email} onChange={changeHandler} type="email" placeholder='Email Id' />
           <input name='password' value={formData.password} onChange={changeHandler} type="password" placeholder='Password' />
         </div>
         <button onClick={handleProceed}>Continue</button>
-        {state === "Sign Up" ?
+        {state === "Sign Up" &&
           <>
             <p className="loginsignup-login">Already have an account? <span onClick={() => { setState("Login") }}>Login Here</span></p>
             <div className="loginsignup-agree">
@@ -151,13 +151,15 @@ const LoginSignUp = () => {
               <label htmlFor="termsAndPrivacy">I agree to the Terms and Privacy Policies</label>
             </div>
           </>
-          :
+        }
+        {state !== "Sign Up" &&
           <p className="loginsignup-login">Create an account? <span onClick={() => { setState("Sign Up") }}>Click Here</span></p>
         }
       </div>
     </div>
   );
-};
+  
 
-export default LoginSignUp;
+  }
 
+export default LoginSignUp
