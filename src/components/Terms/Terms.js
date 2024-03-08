@@ -58,14 +58,14 @@ const Terms = () => {
         <br />
 
         6.1. These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of our country.
-    <br />
-    <br />
-        </p>
+        <br />
+        <br />
         <br />
         <br />
         <br />
 
         <hr />
+        </p>
     </div>
   )
 }

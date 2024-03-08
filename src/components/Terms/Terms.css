@@ -1,5 +1,4 @@
 .terms{
-    height: 90vh;
     margin: 50px;
     padding: 50px;
 }
@@ -14,7 +13,6 @@
 }
 @media(max-width:1280px){
     .terms{
-        height: 90vh;
         margin: 30px;
         padding: 30px;
     }
@@ -30,7 +28,6 @@
         font-weight: 600;
     }
     .terms p{
-        
         font-size: 14px;
     }
 }
