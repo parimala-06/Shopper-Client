@@ -3,7 +3,7 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    height: 70vh;
+    height: 60vh;
 }
 .popular h1{
     color: #171717;
@@ -23,7 +23,7 @@
 }
 @media(max-width:1280px){
     .popular{
-        height: 50vh;
+        height: 40vh;
     }
     .popular h1{
         font-size: 35px;
@@ -39,7 +39,7 @@
 }
 @media(max-width:1024px){
     .popular{
-        height: 40vh;
+        height: 30vh;
     }
     .popular h1{
         font-size: 30px;
@@ -55,7 +55,7 @@
 }
 @media(max-width:800px){
     .popular{
-        height: 30vh;
+        height: 25vh;
         gap: 6px;
     }
     .popular h1{
@@ -70,7 +70,7 @@
 }
 @media(max-width:650px){
     .popular{
-        height: 65vh;
+        height: 45vh;
     }
     .popular-item{
         display: grid;
