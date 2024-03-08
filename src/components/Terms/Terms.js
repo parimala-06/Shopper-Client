@@ -7,7 +7,6 @@ const Terms = () => {
         <h1>Shopper: Terms and Conditions</h1>
     <br />
     <br />
-
         <p>
         Welcome to Shopper, an online garments shop. By accessing or using our website, you agree to comply with and be bound by the following terms and conditions. Please read these Terms of Service carefully before accessing or using our website.
     <br />
