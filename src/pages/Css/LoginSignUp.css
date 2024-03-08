@@ -103,5 +103,13 @@
         font-size: 13px;
     }
 }
-
+@media(max-width: 300px){
+    .loginsignup-container{
+        width: 280px;
+        height: 310px;
+    }
+    .loginsignup-container button{
+        width: 280px;
+    }
+}
 
