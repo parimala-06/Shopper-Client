@@ -64,8 +64,8 @@ const LoginSignUp = () => {
         <button onClick={()=>{state==="Login"?login():signup()}}>Continue</button>
         {state==="Sign Up"?<p className="loginsignup-login">Already have an account? <span onClick={()=>{setState("Login")}}>Login Here</span></p>:<p className="loginsignup-login">Create an account? <span onClick={()=>{setState("Sign Up")}}>Click Here</span></p>} 
         <div className="loginsignup-agree">
-          <input type="checkbox" name='' id='' />
-          <p>I agree to the Terms and Privacy Policies</p>
+          <input type="checkbox" name="termsAndPrivacy" id="termsAndPrivacy" required />
+          <label htmlFor="termsAndPrivacy">I agree to the Terms and Privacy Policies</label>
         </div>
       </div>
     </div>
