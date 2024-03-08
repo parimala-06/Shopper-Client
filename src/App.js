@@ -11,6 +11,7 @@ import Footer from "./components/Footer/Footer.js";
 import men_banner from './components/Assets/banner_mens.png';
 import women_banner from './components/Assets/banner_women.png';
 import kids_banner from './components/Assets/banner_kids.png';
+import Terms from "./components/Terms/Terms.js";
 
 
 function App() {
@@ -27,6 +28,7 @@ function App() {
           <Route path=":productId" element={<Product/>}/>
         </Route>
         <Route path="/cart" element={<Cart/>}/>
+        <Route path="/terms" element={<Terms/>}/>
         <Route path="/login" element={<LoginSignUp/>}/>
       </Routes>
       <Footer/>

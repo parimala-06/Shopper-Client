@@ -119,7 +119,7 @@ const LoginSignUp = () => {
   };
 
   const handleProceed = () => {
-    if (!formData.termsAndPrivacy) {
+    if (state === 'Sign Up' && !formData.termsAndPrivacy) {
       alert("You must agree to the Terms and Conditions to proceed.");
     } else {
       loginOrSignUp();
@@ -148,7 +148,7 @@ const LoginSignUp = () => {
                 onChange={changeHandler}
                 required
               />
-              <label htmlFor="termsAndPrivacy">I agree to the Terms and Privacy Policies</label>
+              <label htmlFor="termsAndPrivacy">I agree to the <Link to="/terms">Terms and Conditions</Link></label>
             </div>
           </>
         }
