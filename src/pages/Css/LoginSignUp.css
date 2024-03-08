@@ -72,7 +72,7 @@
         padding-top: 50px;
     }
     .loginsignup-container{
-        width: 360px;
+        width: 340px;
         height: 350px;
         padding: 8px 20px;
     }
@@ -87,23 +87,11 @@
         font-size: 16px;
     }
     .loginsignup-container button{
-        width: 360px;
+        width: 340px;
         height: 40px;
     }
 }
 @media(max-width: 350px){
-    .loginsignup-container{
-        width: 300px;
-        height: 330px;
-    }
-    .loginsignup-container button{
-        width: 300px;
-    }
-    .loginsignup-agree{
-        font-size: 13px;
-    }
-}
-@media(max-width: 300px){
     .loginsignup-container{
         width: 280px;
         height: 310px;
@@ -111,5 +99,9 @@
     .loginsignup-container button{
         width: 280px;
     }
+    .loginsignup-agree{
+        font-size: 13px;
+    }
 }
+
 
