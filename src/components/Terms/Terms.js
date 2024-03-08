@@ -5,14 +5,15 @@ const Terms = () => {
   return (
     <div className='terms'>
         <h1>Shopper: Terms and Conditions</h1>
-    <br />
-    <br />
         <p>
+        <br />
+        <br />
         Welcome to Shopper, an online garments shop. By accessing or using our website, you agree to comply with and be bound by the following terms and conditions. Please read these Terms of Service carefully before accessing or using our website.
-    <br />
+        <br />
+        <br />
         <b>1. General Terms</b>
         <br />
-
+        <br />
         1.1. By using the Site, you represent that you are at least the age of majority in your state or province of residence.
         <br />
 
@@ -22,7 +23,7 @@ const Terms = () => {
 
         <b>2. Products and Pricing</b>
         <br />
-
+        <br />
         2.1. We reserve the right to modify the contents of this site at any time, but we have no obligation to update any information on our site. You agree that it is your responsibility to monitor changes to our site.
         <br />
 
@@ -35,35 +36,32 @@ const Terms = () => {
 
         <b>3. Accuracy of Information</b>
         <br />
-
+        <br />
         3.1. We are not responsible if information made available on this site is not accurate, complete or current. The material on this site is provided for general information only and should not be relied upon or used as the sole basis for making decisions without consulting primary, more accurate, more complete, or more timely sources of information. Any reliance on the material on this site is at your own risk.
         <br />
         <br />
 
         <b>4. Personal Information</b>
         <br />
-
+        <br />
         4.1. Your submission of personal information through the store is governed by our Privacy Policy. To view our Privacy Policy, e-mail us.
         <br />
         <br />
 
         <b>5. Intellectual Property</b>
         <br />
-
+        <br />
         5.1. All content included on this site, such as text, graphics, logos, button icons, images, audio clips, digital downloads, data compilations, and software, is the property of Shopper or its content suppliers and protected by international copyright laws.
         <br />
         <br />
 
         <b>6. Governing Law</b>
         <br />
-
+        <br />
         6.1. These Terms of Service and any separate agreements whereby we provide you Services shall be governed by and construed in accordance with the laws of our country.
         <br />
         <br />
         <br />
-        <br />
-        <br />
-
         <hr />
         </p>
     </div>
