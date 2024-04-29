@@ -1,5 +1,5 @@
 
-# E-Commerce Web Application
+# E-Commerce Web Application - Shopper
 
 This is an E-commerce web application built using React and React Router. The project features user authentication, a shopping cart, category-based product listings, and a product detail page with breadcrumb navigation.
 
@@ -13,7 +13,6 @@ This is an E-commerce web application built using React and React Router. The pr
   - [Installation](#installation)
   - [Running the App](#running-the-app)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
@@ -29,7 +28,7 @@ This is an E-commerce web application built using React and React Router. The pr
 
 - React
 - React Router
-- CSS (or any CSS framework you use, e.g., Tailwind, Bootstrap)
+- CSS
 - Context API for state management
 - Fetch API for HTTP requests
 
