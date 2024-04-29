@@ -50,7 +50,7 @@ To run the project locally, follow these steps:
 ### Prerequisites
 
 - Node.js and npm/yarn
-- A text editor (e.g., VSCode)
+- VSCode
 
 ### Installation
 
